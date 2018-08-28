@@ -1,0 +1,56 @@
+.beneficio-agua-coco-content {
+    height: 100%;
+    background-image: url(../img/beneficio-coco/beneficios-agua-coco.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(218, 245, 171);
+}
+
+.beneficio-leche-coco-content {
+    height: 100%;
+    background-image: url(../img/beneficio-coco/beneficios-leche-coco.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(31, 80, 121);
+}
+
+.beneficio-aceite-coco-content {
+    height: 100%;
+    background-image: url(../img/beneficio-coco/beneficios-aceite-coco.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(223, 219, 131);
+}
+
+.beneficio-title-content {
+    padding: 30px 0;
+    text-shadow: 3px 2px 2px rgba(130, 130, 130, 0.8);
+}
+
+.beneficio-agua-coco-content .beneficio-icono {
+    background-color: rgba(218, 245, 171, 0.3);
+}
+
+.beneficio-leche-coco-content .beneficio-icono {
+    background-color: rgba(31, 80, 121, 0.58);
+}
+
+.beneficio-aceite-coco-content .beneficio-icono {
+    background-color: rgba(223, 219, 131, 0.3);
+}
+
+.beneficio-icono {
+    height: 100px;
+}
+
+.beneficio-icono-container {
+    padding: 20px 0;
+}
+
+.beneficio-title-card {
+    font-weight: bold;
+    text-shadow: 3px 2px 2px rgba(130, 130, 130, 0.8);
+}
+
+.beneficio-body-card {
+}

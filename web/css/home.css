@@ -1,0 +1,162 @@
+.video-fluid {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+}
+
+img.ubicacion-mesa {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+img.ubicacion-crema-coco {
+    position: absolute;
+    bottom: 15px;
+    left: 125px;
+    right: 0;
+    z-index: 1;
+}
+
+img.ubicacion-leche-coco {
+    position: absolute;
+    bottom: -30px;
+    left: 160px;
+    right: 0;
+}
+
+img.ubicacion-acapulcoco {
+    position: absolute;
+    bottom: -20px;
+    left: -15px;
+    right: 0;
+}
+
+.home-products-section.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.home-products-section {
+    height: auto;
+    background-image: url(../img/home/home-bg-products.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.home-products-section .intro {
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+}
+
+.home-products-section .intro p {
+    font-size: 1.3em;
+}
+
+.home-products-section .products-family img {
+    height: 250px;
+}
+
+.products-family {
+    padding-top: 15px;
+}
+
+.products-family p span {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.products-family .family {
+    padding-bottom: 20px;
+}
+
+.history {
+  color:#313437;
+  background-color:#eef4f7;
+  background-image: url(../img/home/nuestra-historia-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding:50px 0 50px;
+  overflow:hidden;
+}
+
+.history .content-description p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.history .content-img-link p {
+    padding-top: 1rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+.history .content-img-link a {
+    font-size: 2rem;
+    color: #ff9151;
+    text-decoration: underline;
+}
+
+.history .content-img-link a:hover {
+    color: #94491d;
+}
+
+.home-sections {
+    height: auto;
+    background-image: url(../img/home/home-bg-sections.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sections-content {
+    padding: 40px 0 40px;
+}
+
+/*.sections-content .section-item p {
+    color: #f1f1f1;
+    font-size: 19px;
+    padding-top: 5px;
+}*/
+
+/*.section-item-bg {
+    background-color: rgba(23,119,189,0.9);
+    padding: 20px 15px 10px;
+    border-radius: 5px;
+}*/
+
+.section-item-imgl {
+    transform: rotate(-4deg);
+    box-shadow: -15px 10px rgba(0,0,0,.5);
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.section-item-imgr {
+    transform: rotate(4deg);
+    box-shadow: 15px 10px rgba(0,0,0,.5);
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.section-item-txt {
+    font-size: 1.1rem;
+    margin-top: 50px;
+    padding: 20px 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+}
+
+.section-item-txt a {
+    color: #ff9151;
+    text-decoration: underline;
+}
+
+.section-item-txt a:hover {
+    color: #94491d;
+}

@@ -1,0 +1,12 @@
+.donde-comprar-content {
+    padding: 20px 0;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/donde-comprar/donde-comprar-bg.jpg);
+}
+
+.donde-comprar-title h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px #5a5a5a;
+}

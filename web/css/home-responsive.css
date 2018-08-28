@@ -1,0 +1,240 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar.navbar-expand-md.sticky-top {
+        position: relative;
+    }
+
+    img.ubicacion-crema-coco {
+        height: 155px;
+        position: absolute;
+        bottom: 12px;
+        left: 34px;
+        right: 0;
+        z-index: 1;
+    }
+
+    img.ubicacion-leche-coco {
+        height: 155px;
+        position: absolute;
+        bottom: 21px;
+        left: 47px;
+    }
+
+    img.ubicacion-acapulcoco {
+        height: 133px;
+        position: absolute;
+        bottom: 17px;
+        left: -3px;
+        right: 0;
+    }
+
+    .carousel-item {
+        height: 250px;
+        min-height: 210px;
+        max-height: 310px;
+    }
+
+    .video-bg-1 {
+        background-image: url(../img/home/home-v-2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .video-bg-2 {
+        background-image: url(../img/home/home-v-5.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .video-bg-3 {
+        background-image: url(../img/home/home-v-3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .video-fluid {
+        display: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .home-products-section .intro {
+        padding: 10px 10px;
+    }
+
+    .home-products-section .intro p {
+        font-size: 1.0em;
+    }
+
+    .home-products-section .intro h2 {
+        font-size: 1.5rem;
+    }
+
+    .home-sections .sections-content .section-item .section-item-bg {
+        margin-bottom: 20px;
+    }
+
+    .section-item-imgr {
+        margin-top: 25px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar.navbar-expand-md.sticky-top {
+        position: relative;
+    }
+
+    img.ubicacion-crema-coco {
+        height: 155px;
+        position: absolute;
+        bottom: 12px;
+        left: 34px;
+        right: 0;
+        z-index: 1;
+    }
+
+    img.ubicacion-leche-coco {
+        height: 155px;
+        position: absolute;
+        bottom: 21px;
+        left: 47px;
+    }
+
+    img.ubicacion-acapulcoco {
+        height: 198px;
+        position: absolute;
+        bottom: -18px;
+        left: -3px;
+        right: 0;
+    }
+
+    .carousel-item {
+        height: 250px;
+        min-height: 210px;
+        max-height: 310px;
+    }
+
+    .video-bg-1 {
+        background-image: url(../img/home/home-v-2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .video-bg-2 {
+        background-image: url(../img/home/home-v-5.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .video-bg-3 {
+        background-image: url(../img/home/home-v-3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .video-fluid {
+        display: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .home-products-section .intro {
+        padding: 10px 10px;
+    }
+
+    .home-products-section .intro p {
+        font-size: 1.0em;
+    }
+
+    .home-products-section .intro h2 {
+        font-size: 1.5rem;
+    }
+
+    .home-sections .sections-content .section-item .section-item-bg {
+        margin-bottom: 20px;
+    }
+
+    .section-item-imgr {
+        margin-top: 25px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    img.ubicacion-crema-coco {
+        height: 455px;
+        position: absolute;
+        bottom: 12px;
+        left: 34px;
+        right: 0;
+        z-index: 1;
+    }
+
+    img.ubicacion-acapulcoco {
+        height: 450px;
+        position: absolute;
+        bottom: -11px;
+        left: 35px;
+        right: 0;
+    }
+
+    .carousel-item {
+        height: 100%;
+        min-height: 500px;
+        max-height: 700px;
+    }
+
+    .video-fluid {
+        width: auto;
+        height: 100%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    img.ubicacion-crema-coco {
+        height: 455px;
+        position: absolute;
+        bottom: 12px;
+        left: 34px;
+        right: 0;
+        z-index: 1;
+    }
+
+    img.ubicacion-acapulcoco {
+        height: 450px;
+        position: absolute;
+        bottom: -11px;
+        left: -35px;
+        right: 0;
+    }
+
+    .carousel-item {
+
+        min-height: 500px;
+        max-height: 700px;
+    }
+
+    .video-fluid {
+        width: auto;
+        height: 100%;
+    }
+
+    .home-products-section .intro {
+        padding: 20px 160px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .carousel-item {
+        height: 100%;
+        min-height: 500px;
+        max-height: 700px;
+    }
+
+    .home-products-section .intro {
+        padding: 20px 160px;
+    }
+}

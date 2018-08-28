@@ -1,0 +1,115 @@
+.products-content-bg {
+    background-image: url(../img/producto/productos-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.products-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.products-content img.info-nutri {
+    box-shadow: 4px 4px 7px #888888;
+}
+
+.product-content-title {
+    color: #3F48cc;
+    font-weight: bold;
+}
+
+.products-banner {
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+}
+
+.cremas-bg {
+    background-image: url(../img/producto/banner_crema_coco.jpg);
+}
+
+.aguas-bg {
+    background-image: url(../img/producto/banner_agua_coco.jpg);
+}
+
+.leches-bg {
+    background-image: url(../img/producto/banner_leche_coco.jpg);
+}
+
+.refrescoco-bg {
+    background-image: url(../img/producto/banner_agua_coco_gasificada.jpg);
+}
+
+.bebidas-bg {
+    background-image: url(../img/producto/banner_bebidas.jpg);
+}
+
+.aceites-bg {
+    background-image: url(../img/producto/banner_aceite_coco.jpg);
+}
+
+.madera-titulo {
+    height: 120px;
+    /*box-shadow: 4px 4px 7px #888888;*/
+}
+
+.img-container {
+    position: relative;
+}
+
+.name-product {
+    font-size: 1.1rem;
+}
+
+.text-img-centered {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.photo-product {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.photo-product img {
+    height: 390px;
+}
+
+.description-product {
+    font-size: 0.9rem;
+}
+
+.bebidas {
+    height: 40px;
+}
+
+.recetas {
+    height: 40px;
+}
+
+.presentacion-info {
+    padding-bottom: 10px;
+}
+
+.ingredientes-info {
+    padding-bottom: 10px;
+}
+
+.products-carousel-bg {
+    text-align: center!important;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/producto/products-carousel-bg.jpg);
+}
+
+.our-products {
+    padding-top: 1rem;
+}
+
+#carouselProducts .badge.badge-pill {
+    font-size: 16px;
+    font-weight: normal;
+}
